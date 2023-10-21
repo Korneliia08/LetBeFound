@@ -1,0 +1,4 @@
+body .container .blockDescribe {
+    background-color: #0f2f96;
+    grid-area: blockDescribe;
+}

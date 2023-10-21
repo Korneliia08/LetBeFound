@@ -1,0 +1,126 @@
+body .container footer {
+    background-image: url("../assets/images/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    row-gap: 20px;
+}
+
+body .container footer .containerForForm {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    row-gap: 10px;
+}
+
+body .container footer .containerForForm form {
+    background-color: #daff10;
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #8a8a8a;
+    /*background-color: rgba(20, 20, 21, 0.86);*/
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .container footer .containerForForm form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+body .container footer .titleContact {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 1px 1px black;
+    letter-spacing: 2px;
+}
+
+.labelStyle {
+    position: relative;
+    color: white;
+    font-size: 18px;
+}
+
+.labelStyle:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #dc0303;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.tdStyle {
+    text-align: center;
+}
+
+.themeInput,
+.textarea {
+    width: 100%;
+    height: 180px;
+}
+
+.inputStyle {
+    height: 35px;
+    width: 98%;
+}
+
+body .inputStyleLast {
+    margin-left: 2%;
+}
+
+body .inputStyleLong {
+    width: 100%;
+}
+
+
+body .container footer .containerForForm .blockForContacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+}
+
+body .container footer .containerForForm .blockForContacts .blockForGmail,
+body .container footer .containerForForm .blockForContacts .blockForNumbers {
+    height: 150px;
+    width: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c5eb6;
+    padding: 20px;
+    border-radius: 20px;
+    row-gap: 10px;
+}
+
+body .container footer .containerForForm .blockForContacts .blockForNumbers {
+
+}
+
+.iconsStyle {
+    width: 50px;
+}
+
+body .container footer .bottomPartOfFooter {
+    height: 70px;
+    background-color: #242D5A;
+    display: block;
+    width: 100%;
+    border-top: 2px solid white;
+}
