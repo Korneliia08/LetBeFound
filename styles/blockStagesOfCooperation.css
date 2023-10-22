@@ -47,7 +47,20 @@ body .container .blockStagesOfCooperation .blockForStages:before {
 
 
 body .container .blockStagesOfCooperation .blockOfStage {
-    color: white;
+    position: relative;
+}
+
+body .container .blockStagesOfCooperation .blockOfStage:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: -68.5px;
+    background-color: #a93d03;
+    box-shadow: 1px 1px 1px 0px #1c1b1b;
 }
 
 .titleOfStage {

@@ -7,7 +7,7 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>LetBeFound</title>
     <link href="./styles/main.css" rel="stylesheet">
-
+    <link rel="icon" href="./assets/images/icons.ico" type="image/x-icon" >
     <link href="./styles/header.css" rel="stylesheet">
     <link href="./styles/blockDescribe.css" rel="stylesheet">
     <link href="./styles/blockLetBeFound.css" rel="stylesheet">
@@ -19,17 +19,17 @@
 </head>
 <body>
 <div class="container">
-    <header>
+    <header id="home">
         <div class="blockMenu">
             <div class="blockForLogo">
                 <img alt="icon" class="icon" src="./assets/images/icons.webp">
                 <h3 class="logoTitle">LET BE FOUND</h3>
             </div>
             <nav>
-                <a href="">Home</a>
-                <a href="">Offer</a>
-                <a href="">Our&nbsp;process</a>
-                <a href="">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#offertBlock">Offer</a>
+                <a href="#ourProces">Our&nbsp;process</a>
+                <a href="#contactBlock">Contact</a>
             </nav>
         </div>
 
@@ -39,7 +39,43 @@
             <span class="yellowSpan">Your offer.</span></h2>
         <button class="btnCheck">Check</button>
     </header>
-    <div class="blockDescribe">blockDescribe</div>
+    <div class="blockDescribe" id="offertBlock">
+        <div class="blockForTiles">
+            <div class="tile"></div>
+            <div class="tile noneBlock"></div>
+            <div class="tile noneBlock"></div>
+            <div class="tile noneBlock"></div>
+        </div>
+
+        <div class="blockForTiles" style="top: -100px">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile noneBlock"></div>
+            <div class="tile noneBlock"></div>
+        </div>
+
+        <div class="blockForTiles" style="top: -200px">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </div>
+
+        <div class="blockForTiles" style="top: -300px">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </div>
+
+        <div class="blockForTiles lastBlockForTiles" style="top: -300px">
+            <div class="tile noneBlock"></div>
+            <div class="tile noneBlock"></div>
+            <div class="tile noneBlock"></div>
+            <div class="tile"></div>
+        </div>
+    </div>
     <div class="blockLetBeFound"><h2>
         LET YOUR CUSTOMERS BE FOUND ON THE INTERNET!
     </h2>
@@ -80,7 +116,7 @@
 
         </div>
     </div>
-    <div class="blockStagesOfCooperation">
+    <div class="blockStagesOfCooperation" id="ourProces">
         <h2 class="title">STAGES OF COOPERATION</h2>
         <div class="blockForStages">
             <div class="blockOfStage"><h3 class="titleOfStage">
@@ -109,7 +145,7 @@
                 </p></div>
         </div>
     </div>
-    <footer>
+    <footer id="contactBlock">
         <h5 class="titleContact">CONTACT WITH US!</h5>
         <div class="containerForForm">
             <form>
