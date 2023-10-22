@@ -1,4 +1,79 @@
 body .container .blockLetBeFound {
-    background-color: #9c5eb6;
+    padding: 25px 45px;
+    box-sizing: border-box;
     grid-area: blockLetBeFound;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../assets/images/backgroundLet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 25px 4px #000d56;
+    z-index: 5;
+    position: relative;
 }
+
+body .container .blockLetBeFound h2 {
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 40px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #f3f3f3, -1px -1px 1px #000000;
+}
+
+body .container .blockLetBeFound .divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 20px;
+}
+
+
+body .container .blockLetBeFound .divs .blockForOption {
+    padding: 25px 60px;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: #363635;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+body .container .blockLetBeFound .divs .blockForOption .containerIconContent {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    align-items: center;
+}
+
+body .container .blockLetBeFound .divs .blockForOption:nth-child(even) {
+    position: relative;
+    left: 50px;
+}
+
+body .container .blockLetBeFound .divs .blockForOption .title {
+    color: #ed7400;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    text-shadow: 0px 1px 1px black;
+}
+
+body .container .blockLetBeFound .divs .blockForOption .containerIconContent .contentP {
+    color: white;
+    font-size: 20px;
+}
+
+.imgIcons {
+    width: 80px;
+}
+
+
+

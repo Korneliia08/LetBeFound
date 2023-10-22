@@ -13,7 +13,6 @@
     <link href="./styles/blockLetBeFound.css" rel="stylesheet">
     <link href="./styles/blockStagesOfCooperation.css" rel="stylesheet">
     <link href="./styles/blockAboutUs.css" rel="stylesheet">
-    <link href="./styles/blockForOurProjects.css" rel="stylesheet">
     <link href="./styles/footer.css" rel="stylesheet">
     <!--responsive-->
     <link href="./styles/responsive/main.css" rel="stylesheet">
@@ -21,18 +20,19 @@
 <body>
 <div class="container">
     <header>
-        <div class="blockForLogo">
-            <img alt="icon" class="icon" src="./assets/images/icons.webp">
-            <h3 class="logoTitle">LET BE FOUND</h3>
+        <div class="blockMenu">
+            <div class="blockForLogo">
+                <img alt="icon" class="icon" src="./assets/images/icons.webp">
+                <h3 class="logoTitle">LET BE FOUND</h3>
+            </div>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Offer</a>
+                <a href="">Our&nbsp;process</a>
+                <a href="">Contact</a>
+            </nav>
         </div>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Offer</a>
-            <a href="">Our process</a>
-            <a href="">About us</a>
-            <a href="">Our projects</a>
-            <a href="">Contact</a>
-        </nav>
+
         <h1 class="titleHome">REVOLUTIONIZE<br>
             YOUR BUSINESS</h1>
         <h2 class="title2Home">Create a modern website that will attract customers' attention<br> and clearly present
@@ -40,18 +40,83 @@
         <button class="btnCheck">Check</button>
     </header>
     <div class="blockDescribe">blockDescribe</div>
-    <div class="blockLetBeFound">letBeFound</div>
-    <div class="blockStagesOfCooperation">stagesOfCooperation</div>
-    <div class="blockAboutUs">blockAboutUs</div>
-    <div class="blockForOurProjects">blockForOurProjects</div>
+    <div class="blockLetBeFound"><h2>
+        LET YOUR CUSTOMERS BE FOUND ON THE INTERNET!
+    </h2>
+        <div class="divs">
+            <div class="blockForOption">
+                <h3 class="title">STAND OUT ONLINE</h3>
+                <div class="containerIconContent">
+                    <p class="contentP">We will help you make your business stand out online by creating a professional
+                        website that will attract customers' attention.</p>
+                    <img alt="icon gear" class="imgIcons" src="./assets/images/globe.svg">
+                </div>
+            </div>
+            <div class="blockForOption">
+                <h3 class="title">RESPONSIVENESS</h3>
+                <div class="containerIconContent">
+                    <img alt="icon gear" class="imgIcons" src="./assets/images/arrows.svg">
+                    <p class="contentP">Our websites are fully responsive, so they look great on all devices, which is
+                        crucial for success in the mobile era.</p>
+                </div>
+            </div>
+            <div class="blockForOption">
+                <h3 class="title">INDIVIDUAL APPROACH</h3>
+                <div class="containerIconContent">
+                    <p class="contentP">At LetBeFound we understand that each project is unique, just like each client.
+                        Our
+                        the approach focuses on building partnerships and thoroughly understanding your needs.</p>
+                    <img alt="icon gear" class="imgIcons" src="./assets/images/chart.svg">
+                </div>
+            </div>
+            <div class="blockForOption">
+                <h3 class="title">SEO OPTIMIZATION</h3>
+                <div class="containerIconContent">
+                    <img alt="icon gear" class="imgIcons" src="./assets/images/gear.svg">
+                    <p class="contentP">Our websites are fully responsive, so they look great on all devices, which is
+                        crucial for success in the mobile era.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="blockStagesOfCooperation">
+        <h2 class="title">STAGES OF COOPERATION</h2>
+        <div class="blockForStages">
+            <div class="blockOfStage"><h3 class="titleOfStage">
+                CONSULTATIONS AND ANALYSIS
+            </h3>
+                <p class="contentOfStage">
+                    We begin our cooperation with an in-depth consultation to understand your goals and requirements. We
+                    also conduct a thorough market and competition analysis to ensure that our solutions are
+                    strategically adapted and effective. This is our way to understand your vision and build a solid
+                    foundation for the project.
+                </p></div>
+            <div class="blockOfStage"><h3 class="titleOfStage">DESIGN AND IMPLEMENTATION</h3>
+                <p class="contentOfStage">Our design team, full of creativity and passion, transforms your dreams into
+                    reality online. We
+                    create aesthetic and intuitive designs that reflect the character of your company. After receiving
+                    your approval, we start implementing it, taking care of every detail so that your website is ready
+                    to win the hearts of your customers.</p></div>
+            <div class="blockOfStage"><h3 class="titleOfStage">TESTING AND SUPPORT</h3>
+                <p class="contentOfStage">
+                    For us, the work does not end after website implementation:
+                    <ul class="fontStyle">
+                    <li>We regularly carry out tests to ensure the highest quality and functionality.</li>
+                    <li>We also support you after launch, offering technical support when you need it. Our goal is to ensure that your website runs smoothly and effectively, supporting you every step of the way to online success.</li>
+                    <li>Fully committed to your project, we focus on every stage of the process to provide you with comprehensive and effective solutions.</li>
+                </ul>
+                </p></div>
+        </div>
+    </div>
     <footer>
         <h5 class="titleContact">CONTACT WITH US!</h5>
         <div class="containerForForm">
             <form>
                 <table>
                     <tr>
-                        <th><label class="labelStyle" for="inputName">Name</label></th>
-                        <th><label class="labelStyle" for="inputSurname">Surname</label></th>
+                        <th class="thStyle"><label class="labelStyle" for="inputName">Name</label></th>
+                        <th class="thStyle"><label class="labelStyle" for="inputSurname">Surname</label></th>
                     </tr>
                     <tr>
                         <td><input class="inputStyle" id="inputName" name="inputName" type="text"></td>
@@ -59,7 +124,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th colspan="2"><label class="labelStyle" for="inputTheme">Theme</label></th>
+                        <th class="thStyle" colspan="2"><label class="labelStyle" for="inputTheme">Theme</label></th>
                     </tr>
                     <tr>
                         <td colspan="2"><input class="themeInput inputStyle inputStyleLong" id="inputTheme"
@@ -67,7 +132,7 @@
                                                type="text"></td>
                     </tr>
                     <tr>
-                        <th colspan="2"><label class="labelStyle" for="inputMess">Message</label></th>
+                        <th class="thStyle" colspan="2"><label class="labelStyle" for="inputMess">Message</label></th>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -75,24 +140,35 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="tdStyle" colspan="2"><input type="submit" value="Send message"></td>
+                        <td class="tdStyle" colspan="2"><input class="btnSubmit" type="submit" value="Send message">
+                        </td>
                     </tr>
                 </table>
             </form>
             <div class="blockForContacts">
                 <div class="blockForGmail">
-                    <img alt="iconGmail" class="iconsStyle" src="./assets/images/gmailIcon.jpg">
-                    <span>korneliamushak@gmail.com</span>
+                    <img alt="iconGmail" class="iconsStyle" src="./assets/images/gmailIcon.svg">
+                    <span class="spanContacts">korneliamushak@gmail.com</span>
                 </div>
                 <div class="blockForNumbers">
-                    <img alt="iconPhone" class="iconsStyle" src="./assets/images/phoneIcon.png">
-                    <span>+48 788 830 720</span>
-                    <span>+48 570 145 294</span>
+                    <img alt="iconPhone" class="iconsStyle" src="./assets/images/phoneIcon.svg">
+                    <span class="spanContacts">+48 788 830 720</span>
+                    <span class="spanContacts">+48 570 145 294</span>
                 </div>
             </div>
         </div>
-        <div class="bottomPartOfFooter">ye4arhy</div>
+        <div class="bottomPartOfFooter">
+            <div class="blockForLogo">
+                <img alt="logo" class="logo" src="./assets/images/icons.webp">
+                <h3 class="logoTitle">LET BE FOUND</h3>
+            </div>
+            <h5 class="contentInFooter">Made by Korneliia &copy;</h5>
+            <h5 class="contentInFooter">Privacy policy</h5>
+        </div>
     </footer>
 </div>
+<script src="./scripts/footes.js"></script>
+<script src="./scripts/header.js"></script>
 </body>
 </html>
+

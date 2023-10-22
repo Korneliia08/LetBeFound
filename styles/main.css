@@ -9,12 +9,10 @@ h6, h5, h4, h3, h2, h1, p {
 body .container {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 100vh 200px 200px 200px 100px 100px 800px;
+    grid-template-rows: 100vh 200px 1100px 1000px 900px;
     grid-template-areas: "header"
                          "blockDescribe"
                          "blockLetBeFound"
                          "blockStagesOfCooperation"
-                         "blockAboutUs"
-                         "blockForOurProjects"
                          "footer";
 }

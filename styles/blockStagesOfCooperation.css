@@ -1,4 +1,88 @@
 body .container .blockStagesOfCooperation {
-    background-color: #bd59bb;
+    padding: 20px 50px;
+    background-color: #494549;
     grid-area: blockStagesOfCooperation;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    box-sizing: border-box;
+    row-gap: 20px;
+    background-image: url("../assets/images/stages.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+    border-bottom: 5px solid #181818;
 }
+
+body .container .blockStagesOfCooperation .title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #f3f3f3, -1px -1px 1px #000000;
+    color: white;
+}
+
+
+body .container .blockStagesOfCooperation .blockForStages {
+    width: 45%;
+    padding: 0 40px 0 60px;
+    position: relative;
+}
+
+body .container .blockStagesOfCooperation .blockForStages:before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.8100490196078431) 40%, rgba(255, 255, 255, 0.5495448179271709) 60%, rgba(255, 255, 255, 0.22461484593837533) 90%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+
+body .container .blockStagesOfCooperation .blockOfStage {
+    color: white;
+}
+
+.titleOfStage {
+    color: #ed7400;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0px 1px 1px black;
+    margin: 20px 0;
+}
+
+.contentOfStage,
+.fontStyle {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.fontStyle li {
+    display: list-item;
+    padding-left: 8px;
+    counter-increment: li;
+}
+
+.fontStyle {
+    font-size: 19px;
+}
+
+
+.fontStyle li::marker {
+    display: list-item;
+    content: "#" counter(li) " ";
+    font-size: 19px;
+    color: #d9651b;
+}
+
+
