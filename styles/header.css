@@ -4,6 +4,8 @@ body .container header {
     background-image: url("./../assets/images/cityInNight.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 0px 25px 4px #000d56;
+    z-index: 150;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows:  2fr 1fr 1fr;

@@ -1,0 +1,106 @@
+@media (max-width: 1050px) {
+    body .container .blockLetBeFound {
+        padding: 15px 35px;
+        width: 100vw;
+    }
+
+    body .container .blockLetBeFound h2 {
+        margin: 30px;
+        font-size: 27px;
+
+    }
+
+    body .container .blockLetBeFound .divs {
+        row-gap: 18px;
+    }
+
+
+    body .container .blockLetBeFound .divs .blockForOption {
+        padding: 10px 30px;
+
+        border-radius: 20px;
+    }
+
+    body .container .blockLetBeFound .divs .blockForOption .containerIconContent {
+
+        column-gap: 20px;
+
+    }
+
+
+    body .container .blockLetBeFound .divs .blockForOption .title {
+
+        font-size: 22px;
+
+    }
+
+    body .container .blockLetBeFound .divs .blockForOption .containerIconContent .contentP {
+
+        font-size: 18px;
+    }
+
+    .imgIcons {
+        width: 70px;
+    }
+}
+
+@media (max-width: 700px) {
+    body .container .blockLetBeFound .divs .blockForOption {
+        width: 90%;
+    }
+
+    body .container .blockLetBeFound .divs .blockForOption h3 {
+        margin-top: 0px;
+    }
+
+    body .container .blockLetBeFound .divs .blockForOption:nth-child(even) {
+
+        left: 10px;
+    }
+
+    .imgIcons {
+        width: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    body .container .blockLetBeFound {
+        padding: 12px 25px;
+    }
+
+    body .container .blockLetBeFound h2 {
+        margin: 20px;
+        font-size: 20px;
+
+    }
+
+    body .container .blockLetBeFound .divs {
+        row-gap: 14px;
+    }
+
+
+    body .container .blockLetBeFound .divs .blockForOption {
+        padding: 8px 15px;
+    }
+
+    body .container .blockLetBeFound .divs .blockForOption .containerIconContent {
+        column-gap: 10px;
+
+    }
+
+
+    body .container .blockLetBeFound .divs .blockForOption .title {
+
+        font-size: 18px;
+
+    }
+
+    body .container .blockLetBeFound .divs .blockForOption .containerIconContent .contentP {
+
+        font-size: 14px;
+    }
+
+    .imgIcons {
+        width: 30px;
+    }
+}

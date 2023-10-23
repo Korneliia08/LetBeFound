@@ -1,0 +1,261 @@
+@media (max-width: 1050px) {
+
+    body .container footer {
+        padding-top: 20px;
+        row-gap: 15px;
+        width: 100vw;
+    }
+
+    body .container footer .containerForForm {
+        width: 700px;
+        row-gap: 7px;
+    }
+
+    body .container footer .titleContact {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .labelStyle {
+        font-size: 18px;
+    }
+
+
+    .themeInput,
+    .textarea {
+        height: 145px;
+        padding: 5px;
+        font-size: 19px;
+    }
+
+    .inputStyle {
+        height: 40px;
+        width: 98%;
+        padding: 7px;
+        font-size: 18px;
+    }
+
+    body .container footer .containerForForm .blockForContacts {
+        column-gap: 8px;
+    }
+
+    body .container footer .containerForForm .blockForContacts .blockForGmail,
+    body .container footer .containerForForm .blockForContacts .blockForNumbers {
+        padding: 10px;
+    }
+
+
+    body .container footer .bottomPartOfFooter .blockForLogo {
+        column-gap: 8px;
+    }
+
+    .btnSubmit {
+        padding: 5px;
+        width: 180px;
+    }
+
+
+    .spanContacts {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    .logoTitle {
+        font-size: 20px;
+    }
+
+    .contentInFooter {
+        font-size: 20px;
+    }
+
+    .validationContent {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 760px) {
+
+    body .container footer .containerForForm {
+        width: 500px;
+    }
+
+    body .container footer .titleContact {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .labelStyle {
+        font-size: 15px;
+    }
+
+
+    .themeInput,
+    .textarea {
+        font-size: 18px;
+    }
+
+    .inputStyle {
+        font-size: 15px;
+    }
+
+    body .container footer .containerForForm .blockForContacts {
+        column-gap: 5px;
+    }
+
+    body .container footer .containerForForm .blockForContacts .blockForGmail,
+    body .container footer .containerForForm .blockForContacts .blockForNumbers {
+        padding: 5px;
+    }
+
+
+    body .container footer .bottomPartOfFooter .blockForLogo {
+        column-gap: 5px;
+    }
+
+    .btnSubmit {
+        padding: 5px;
+        width: 140px;
+    }
+
+
+    .spanContacts {
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 20px;
+    }
+
+    .logoTitle {
+        font-size: 15px;
+    }
+
+    .contentInFooter {
+        font-size: 15px;
+    }
+
+    .validationContent {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+    body .container footer .containerForForm {
+        width: 350px;
+    }
+
+    body .container footer .titleContact {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .labelStyle {
+        font-size: 15px;
+    }
+
+
+    .themeInput,
+    .textarea {
+        font-size: 18px;
+    }
+
+    .inputStyle {
+        font-size: 15px;
+    }
+
+    body .container footer .containerForForm .blockForContacts {
+        column-gap: 5px;
+    }
+
+    body .container footer .containerForForm .blockForContacts .blockForGmail,
+    body .container footer .containerForForm .blockForContacts .blockForNumbers {
+        padding: 5px;
+    }
+
+
+    body .container footer .bottomPartOfFooter .blockForLogo {
+        column-gap: 5px;
+    }
+
+    .btnSubmit {
+        padding: 5px;
+        font-size: 12px;
+        width: 140px;
+    }
+
+
+    .spanContacts {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 15px;
+    }
+
+    .logoTitle {
+        font-size: 12px;
+    }
+
+    .contentInFooter {
+        font-size: 12px;
+    }
+
+    .validationContent {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    body .container footer .containerForForm {
+        width: 270px;
+    }
+
+    body .container footer .titleContact {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+
+    .labelStyle {
+        font-size: 14px;
+    }
+
+
+    .themeInput,
+    .textarea {
+        font-size: 16px;
+    }
+
+    .inputStyle {
+        font-size: 14px;
+    }
+
+
+    .btnSubmit {
+        padding: 5px;
+        width: 110px;
+    }
+
+
+    .spanContacts {
+        font-size: 9px;
+    }
+
+    .logo {
+        width: 11px;
+    }
+
+    body .container footer .containerForForm .blockForContacts .blockForGmail,
+    body .container footer .containerForForm .blockForContacts .blockForNumbers {
+        height: 100px;
+    }
+
+
+}

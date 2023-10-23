@@ -12,10 +12,14 @@
     <link href="./styles/blockDescribe.css" rel="stylesheet">
     <link href="./styles/blockLetBeFound.css" rel="stylesheet">
     <link href="./styles/blockStagesOfCooperation.css" rel="stylesheet">
-    <link href="./styles/blockAboutUs.css" rel="stylesheet">
     <link href="./styles/footer.css" rel="stylesheet">
     <!--responsive-->
     <link href="./styles/responsive/main.css" rel="stylesheet">
+    <link href="./styles/responsive/footer.css" rel="stylesheet">
+    <link href="./styles/responsive/blockStagesOfCooperation.css" rel="stylesheet">
+    <link href="./styles/responsive/blockLetBeFound.css" rel="stylesheet">
+    <link href="./styles/responsive/header.css" rel="stylesheet">
+    <link href="./styles/responsive/blockDescribe.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -40,6 +44,15 @@
         <button class="btnCheck">Check</button>
     </header>
     <div class="blockDescribe" id="offertBlock">
+        <div class="containerForContent">
+            <h2 class="title">
+                WHY IS IT WORTH HAVING A WEBSITE FOR YOUR BUSINESS?</h2>
+
+            <p class="content">Nowadays, when most activities are moving online, having a professional website has become indispensable for every company. If you want to compete effectively on the market and reach a wide range of potential customers, investing in your own website is absolutely necessary. And why is LetBeFound the perfect partner to create <span class="orangeSpan">your website?</span> Here are some reasons:</p>
+
+
+        </div>
+
         <div class="blockForTiles">
             <div class="tile"></div>
             <div class="tile noneBlock"></div>
@@ -47,34 +60,75 @@
             <div class="tile noneBlock"></div>
         </div>
 
-        <div class="blockForTiles" style="top: -100px">
+        <div class="blockForTiles">
             <div class="tile"></div>
             <div class="tile"></div>
             <div class="tile noneBlock"></div>
             <div class="tile noneBlock"></div>
         </div>
 
-        <div class="blockForTiles" style="top: -200px">
+        <div class="blockForTiles" >
             <div class="tile"></div>
+            <div class="tile noBackGround">
+               <div class="tile2">
+                <div class="face front backgroundImage image1"></div>
+                <div class="face back">
+                    <p>A website is the showcase of your business in the online world. Thanks to its professional appearance, you will gain the trust of potential customers. At LetBeFound, we will make sure that your website attracts as many customers as possible.</p>
+                </div>
+                </div>
+            </div>
+            <div class="tile noBackGround">
+                <div class="tile2">
+                    <div class="face front backgroundImage image1"></div>
+                    <div class="face back">
+                        <p>Customers often use the Internet to learn more about companies. With your own website, you have control over the information you present about your business. This makes customers feel more confident when deciding to work with you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tile noBackGround">
+            <div class="tile2">
+                <div class="face front backgroundImage image1"></div>
+                <div class="face back">
+                    <p>The Internet is a huge source of potential customers. By having a website, you open the door to the global market where your products or services can be available to everyone. Thanks to properly selected content, your website will be easy to find on the Internet.</p>
+                </div>
+            </div>
+        </div>
+            <div class="tile noneBlock"></div>
+        </div>
+
+        <div class="blockForTiles">
             <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
+            <div class="tile noBackGround">
+                <div class="tile2">
+                    <div class="face front backgroundImage image1"></div>
+                    <div class="face back">
+                        <p>A website is an excellent tool for conducting marketing activities. Thanks to the right tools, such as a blog or information sections, you can provide valuable content to your target group, attracting their attention and building long-term relationships.</p>
+                    </div>
+                </div>
+            </div>  <div class="tile noBackGround">
+            <div class="tile2">
+                <div class="face front backgroundImage image1"></div>
+                <div class="face back">
+                    <p>Wiele firm posiada już swoje strony internetowe, a brak obecności online może Cię wykluczyć z rywalizacji. Posiadając nowoczesną i funkcjonalną stronę, możesz skutecznie konkurować z innymi graczami na rynku.</p>
+                </div>
+            </div>
+        </div>
+            <div class="tile"></div>      <div class="tile"></div>
+        </div>
+
+        <div class="blockForTiles  blockForTilesLast" >
+            <div class="tile noneBlock"></div>
+            <div class="tile noneBlock"></div>
+            <div class="tile noneBlock"></div>
+            <div class="tile noneBlock"></div>
             <div class="tile"></div>
         </div>
 
-        <div class="blockForTiles" style="top: -300px">
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
+        <div class="contentInBottom">
+            <p class="contentBottomP">
+                At LetBeFound, we know how important online presence is <span class="orangeSpan">for the success of your business.</span> Our company specializes in creating attractive, SEO-optimized websites that attract attention, build trust and generate profits. Give your business a chance to develop dynamically and contact us today to learn more about our services!</p>
         </div>
 
-        <div class="blockForTiles lastBlockForTiles" style="top: -300px">
-            <div class="tile noneBlock"></div>
-            <div class="tile noneBlock"></div>
-            <div class="tile noneBlock"></div>
-            <div class="tile"></div>
-        </div>
     </div>
     <div class="blockLetBeFound"><h2>
         LET YOUR CUSTOMERS BE FOUND ON THE INTERNET!
@@ -148,15 +202,15 @@
     <footer id="contactBlock">
         <h5 class="titleContact">CONTACT WITH US!</h5>
         <div class="containerForForm">
-            <form>
+            <form novalidate >
                 <table>
                     <tr>
                         <th class="thStyle"><label class="labelStyle" for="inputName">Name</label></th>
                         <th class="thStyle"><label class="labelStyle" for="inputSurname">Surname</label></th>
                     </tr>
                     <tr>
-                        <td><input class="inputStyle" id="inputName" name="inputName" type="text"></td>
-                        <td><input class="inputStyle inputStyleLast" id="inputSurname" name="inputSurname" type="text">
+                        <td><input class="inputStyle" id="inputName" name="inputName" type="text" required></td>
+                        <td><input class="inputStyle inputStyleLast" id="inputSurname" name="inputSurname" type="text" required>
                         </td>
                     </tr>
                     <tr>
@@ -165,14 +219,14 @@
                     <tr>
                         <td colspan="2"><input class="themeInput inputStyle inputStyleLong" id="inputTheme"
                                                name="inputTheme"
-                                               type="text"></td>
+                                               type="text" required></td>
                     </tr>
                     <tr>
                         <th class="thStyle" colspan="2"><label class="labelStyle" for="inputMess">Message</label></th>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <textarea class="textarea" id="inputMess" name="inputMess"></textarea>
+                            <textarea class="textarea" id="inputMess" name="inputMess" required></textarea>
                         </td>
                     </tr>
                     <tr>
@@ -203,7 +257,7 @@
         </div>
     </footer>
 </div>
-<script src="./scripts/footes.js"></script>
+<script src="scripts/footer.js"></script>
 <script src="./scripts/header.js"></script>
 </body>
 </html>

@@ -1,0 +1,57 @@
+@media (max-width: 1200px) {
+
+    body .container .blockStagesOfCooperation {
+        padding: 20px 50px;
+        row-gap: 20px;
+        border-bottom: 5px solid #181818;
+        width: 100vw;
+    }
+
+    body .container .blockStagesOfCooperation .title {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 40px;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px #f3f3f3, -1px -1px 1px #000000;
+        color: white;
+    }
+
+
+    body .container .blockStagesOfCooperation .blockForStages {
+        width: 85%;
+        padding: 0 20px 0 20px;
+
+    }
+
+
+    body .container .blockStagesOfCooperation .blockOfStage:before {
+        left: -28.5px;
+    }
+
+    .titleOfStage {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .contentOfStage,
+    .fontStyle {
+
+        font-size: 18px;
+    }
+
+
+    .fontStyle {
+        font-size: 17px;
+    }
+
+
+    .fontStyle li::marker {
+        display: list-item;
+        content: "#" counter(li) " ";
+        font-size: 17px;
+        color: #d9651b;
+    }
+
+
+}

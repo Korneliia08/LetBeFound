@@ -5,3 +5,7 @@ document.addEventListener("scroll", (event) => {
         blockMenu.classList.add("moveNav")
     }
 })
+
+document.addEventListener("scroll", (event) => {
+    console.log(event);
+})

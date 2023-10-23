@@ -39,6 +39,10 @@ body .container footer .containerForForm form table {
     border-collapse: collapse;
 }
 
+body .container footer .containerForForm form table tr td {
+    vertical-align: top;
+}
+
 body .container footer .titleContact {
     color: white;
     font-size: 28px;
@@ -208,4 +212,21 @@ body .container footer .bottomPartOfFooter .blockForLogo {
     font-size: 25px;
     text-shadow: 0px 1px 1px black;
     letter-spacing: 1px;
+}
+
+.touched:invalid {
+    border: 1px solid #9b0101;
+}
+
+.touched:valid {
+    border: 1px solid #0b8300;
+}
+
+.validationContent {
+    display: block;
+    color: #d90202;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 8px 4px;
 }
