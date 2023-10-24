@@ -8,7 +8,7 @@ h6, h5, h4, h3, h2, h1, p {
 
 body .container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: 100vh auto auto auto auto;
     grid-template-areas: "header"
                          "blockDescribe"

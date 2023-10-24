@@ -1,7 +1,7 @@
 @media (max-width: 1050px) {
     body .container .blockLetBeFound {
         padding: 15px 35px;
-        width: 100vw;
+        width: 100%;
     }
 
     body .container .blockLetBeFound h2 {

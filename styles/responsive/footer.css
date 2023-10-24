@@ -3,7 +3,7 @@
     body .container footer {
         padding-top: 20px;
         row-gap: 15px;
-        width: 100vw;
+        width: 100%;
     }
 
     body .container footer .containerForForm {

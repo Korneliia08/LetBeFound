@@ -101,6 +101,8 @@
 @media (max-width: 916px) {
     .title {
         margin: 0px 0 0px 0;
+        font-size: 23px;
+        width: 90%;
     }
 
     body .container .blockDescribe {

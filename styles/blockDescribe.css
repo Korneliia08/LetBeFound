@@ -107,7 +107,15 @@ body .container .blockDescribe .blockForTiles.lastBlockForTiles {
 }
 
 .front {
-    /**background-color: #0379ff;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 0px black;
+    padding: 30px;
 }
 
 .back {

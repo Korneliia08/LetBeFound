@@ -13,6 +13,12 @@
 
 @media (max-width: 850px) {
 
+    body .container header .title2Home {
+        width: 90%;
+        box-sizing: border-box;
+        font-size: 16px;
+
+    }
 
     body .container header .logoTitle {
         font-size: 15px;
