@@ -6,3 +6,7 @@ This website:
 * made in HTML, CSS,JS,
 * it is a responsive website,
 * made using functions
+
+* ![image](https://github.com/Korneliia08/LetBeFound/blob/master/assets/images/header.png)
+
+  ![image](https://github.com/Korneliia08/LetBeFound/blob/master/assets/images/stages.png)
