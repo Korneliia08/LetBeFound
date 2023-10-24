@@ -1,5 +1,4 @@
 body .container header {
-    background-color: yellow;
     grid-area: header;
     background-image: url("./../assets/images/cityInNight.jpg");
     background-repeat: no-repeat;
